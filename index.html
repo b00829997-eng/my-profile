@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italo's blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="home" class="pagina attiva">
+        <div id="Fotoprofilo">
+             <img src="images/profilo.png" id="profilo" class="immagini-pagina-1">
+            
+            <div class="box-contatti">
+                <h3> Let's keep in touch!</h3>
+                <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/filippopagotto/" target="_blank">
+                        <img src="images/linkedin-logo.png" alt="Substack" style="height: 20px; vertical-align: middle;">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=italostrebe@gmail.com" target="_blank" title="Scrivimi su Gmail">
+                        <img src="images/logo-gmail.png" alt="Email" style="height: 20px; vertical-align: middle;">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://italostrebe.substack.com" target="_blank">
+                        <img src="images/logo-substack.png" alt="Substack" style="height: 20px; vertical-align: middle;">
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="testo-principale">
+            <div>
+                <h1 id="Titolo1">Hi, I'm Italo Strebe</h1>
+            </div>
+            <div id="Titolo2">
+                <h2> 
+                    Welcome to my website!
+                </h2>
+                <h2> 
+                    Here you can find some information about <em>who I am</em>, <em>what I do</em>, and <em>why I do it</em> 😼 
+                </h2>
+            </div>
+            <div>
+                <p>
+                    <div>
+                        <ul> 
+                            <li> 
+                                <span class="evidenziato" onclick="vaiAPagina('My Vision')">My Vision</span> 
+                            </li>
+                            <li>
+                                <span class="evidenziato" onclick="vaiAPagina('My Mission')">My Mission</span>
+                            </li>
+                            <li>
+                                <span class="evidenziato" onclick="vaiAPagina('Values')">My Values</span>
+                            </li>
+                            <li>
+                                <span class="evidenziato" onclick="vaiAPagina('Journey')">My Journey (so far)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+            <div class="firma-container">
+                <img src="images/signature.png" alt="Italo Strebe signature" class="firma">
+            </div>
+        </div>
+    </div>
+    <div id="My Vision" class="pagina pagina-definizione vision-page">
+        <button class="torna-indietro" onclick="vaiAPagina('home')">← Back to home</button>
+        <h1>
+            <em>What is my dream?</em>
+        </h1>
+        <div class="contenuto">
+            <p>
+                My dream is for every <strong>talented</strong> and <strong>motivated student</strong> to build an academic and <strong> professional path</strong> truly  aligned with their <strong>strengths </strong>. I aim to guide them through their first steps at university with <strong>practical tools</strong>, <strong>critical reflections</strong>, and <strong>authentic experiences</strong>, making knowledge accessible and promoting a culture rooted in merit, conscious commitment, and continuous growth. 
+            </p> 
+            <p>
+                I aspire to create an environment where everyone can express their <strong>full potential</strong> with confidence, dedication, and intellectual curiosity, putting shared experience at the service of <strong>everyone's future</strong>.
+            </p>
+        </div>
+    </div>
+    <div id="My Mission" class="pagina pagina-definizione">
+        <button class="torna-indietro" onclick="vaiAPagina('home')">← Back to home</button>
+        <h1>
+            <em>What is my purpose?</em>
+        </h1>
+        <div class="contenuto">
+            <p>
+            My mission is to <strong>accompany other students</strong> in their first steps at <strong>university </strong>, offering practical tools, critical reflections, and effective strategies to approach <stong> studies </stong>, <strong>career choices</strong>, and <strong>personal growth </strong> with awareness. Through quality educational content and sharing my direct experiences, I want to <strong> make knowledge </strong> more <strong> accessible </strong> and <strong> promote merit </strong> as a lever for developing one's potential.
+            </p>
+            <p>
+                My goal is to spread a culture of intelligent commitment, authenticity, and responsibility, helping those who follow me to <strong> discover </strong> their <strong> strengths </strong> and <strong>build a path</strong> that is consistent and satisfying with their <strong> aspirations </strong>.
+            </p>
+            </p>
+        </div>
+    </div>
+    <div id="Values" class="pagina pagina-definizione">
+        <button class="torna-indietro" onclick="vaiAPagina('home')">← Back to home</button>
+        <h1>
+            <em>What do I believe in?</em>
+        </h1>
+        <div class="contenuto">
+            <p>
+                My Values are:
+                <div>
+                    <ul>
+                        <li> <strong> Merit and dedication </strong>: success is born from consistent effort and a genuine passion for knowledge 
+                        </li>
+                        <li>  <strong> Sharing </strong>: personal experience gains real value only when it is put at the service of others 
+                        </li>
+                        <li> <strong> Continuous growth </strong>: learning is not a destination, but a lifelong process 
+                        </li>
+                        <li> <strong> Accessibility of knowledge </strong>: every student, regardless of their starting point, should have the opportunity to express their full potential </li>
+                        <li> <strong> Authenticity </strong>: lead by example, communicating with honesty, rigor, and intellectual curiosity
+                        </li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </div>
+    <div id="Journey" class="pagina pagina-definizione">
+        <button class="torna-indietro" onclick="vaiAPagina('home')">← Back to home</button>
+        <h1>
+            <em>What have I done so far?</em>
+        </h1>
+        <div class="contenuto">
+            <p>
+                <em>My name is Italo,</em>
+            </p>
+            <p>
+               I was born in Bologna, and I grew up in a house full of books a place where we talked about everything: <strong> philosophy, politics, science, economics </strong>. 
+               That's probably where my curiosity came from the desire to understand how ideas turn into actions, and how learning can <strong>truly change people</strong>.
+            </p>
+            <p>
+                After high school, I enrolled at <strong>Bocconi University</strong>, where I studied <strong>Economics and Social Sciences</strong>. At first, it was tough: new rhythms, strong competition, demanding exams. But that's where I learned the value of discipline: waking up early, studying consistently, organizing my time, and never stopping asking questions. I graduated with highest honors, then continued with a master's in <strong>Philosophy and Public Policy at Oxford</strong>, where I discovered how powerful it can be to connect critical thinking with the concreteness of economics.
+            </p>
+            <p>
+                Today, I want to share what I've learned with <strong> students who are just starting out </strong> those who want to give their best, but also live their university journey with <strong>awareness and curiosity</strong>. Through my videos, I share methods, experiences, and reflections to help others build a future that matches their effort and their potential.
+            </p>
+        </div>
+    </div>
+    <script>
+        function vaiAPagina(idPagina) {
+            // Nascondi tutte le pagine
+            const pagine = document.querySelectorAll('.pagina');
+            pagine.forEach(p => p.classList.remove('attiva'));
+            
+            // Mostra la pagina richiesta
+            document.getElementById(idPagina).classList.add('attiva');
+            
+            // Scrolla in cima alla pagina
+            window.scrollTo(0, 0);
+        }
+        
+        const immagine = document.getElementById('profilo');
+        if (idPagina= 'home') {
+             immagine.classList.remove('nascosta');
+        } 
+        else {
+         immagine.classList.add('nascosta');
+        }
+    </script>
+</body>
+</html>
